@@ -1,0 +1,750 @@
+:root{
+    --oscuro-color: #141414;
+    --plan-color: #B8B8DC;
+    --gris-color: #a7a7a7;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    outline: none;
+}
+
+.tituloContainer{
+    width: 100%;
+    height: 13rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-image: url('../img/fondoCardPrincipal.png');
+    background-position: center;
+    background-size: cover;
+    color: var(--plan-color);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0 0 1rem 0;
+}
+
+h1{
+    color: var(--white-color);
+    font-weight: 400;
+}
+
+/**************** FORMULARIO *******************/
+
+#comisionForm{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.inputCont{
+    width: 100%;
+    min-height: 12rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--white-color);
+}
+
+.inputContAs{
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputContPro{
+    width: 100%;
+    min-height: 1rem;
+    display: flex;
+    background: var(--white-color);
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.containerPro{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 1rem;
+    background: var(--principal-color);
+}
+
+.inputContAs{
+    width: 100%;
+    min-height: 5rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputContOb{
+    width: 100%;
+    
+}
+
+.signoCont{
+    height: 5rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white-color);
+    background: var(--principal-color);
+}
+
+.inputText{
+    width: 80%;
+    height: 5rem;
+    margin: 1rem 0;
+    border: 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: var(--poppins-font);
+    font-size: 1rem;
+    background: var(--principal-color);
+}
+
+.inputTextAs{
+    width: 100%;
+    height: 5rem;
+    margin: 1rem 0;
+    border: 0;
+    border-radius:  1rem;
+    padding: 1rem;
+    font-family: var(--poppins-font);
+    font-size: 1rem;
+    background: var(--principal-color);
+}
+
+.inputTextOb{
+    width: 100%;
+    height: 5rem;
+    border: 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: var(--poppins-font);
+    font-size: 1rem;
+    background: var(--principal-color);
+}
+
+
+.comisionCont{
+    width: 100%;
+    height: 13rem;
+    background: var(--white-color);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.comTit{
+    padding: 0 0 1rem 0;
+    font-size: 1rem;
+}
+
+
+.comisionElegidaCont{
+    width: 100%;
+
+}
+
+.comisionElegida{
+    font-size: 4rem;
+}
+
+
+.comisionElegidaNumero{
+    font-size: 4rem;
+}
+
+
+.resultadoCont{
+    overflow: hidden;
+    width: 100%;
+    height: 10rem;
+    border-radius: 1rem;
+    background-image: url('../img/fondo.png');
+    background-position: right;
+    background-size: cover;
+    color: var(--principal-color);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.titRes{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--white-color);
+}
+
+.resultado{
+    color: var(--white-color);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/*Boton Enviar*/
+
+.enviar{
+    width: 100%;
+    height: 4rem;
+    border: 0;
+    border-radius: 5rem;
+    background: var(--dark-color);
+    color: var(--principal-color);
+    margin: 1rem 0;
+}
+
+
+.titPlan{
+    display: none;
+}
+
+.valorComisionCont{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selectComision{
+    width: 100%;
+    height: 5rem;
+    border-radius: 1rem;
+    border: 0;
+    padding: 1rem;
+    background: var(--principal-color);
+    font-size: var(--poppins-font);
+    cursor: pointer;
+}
+
+.calcular{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 2rem;
+    background: var(--white-color);
+    color: var(--principal-color);
+    cursor: pointer;
+    border: 3px solid var(--plan-color);
+}
+
+
+/**************** RESULTADOS CONTAINER *******************/
+
+.resultadosContDocument{
+    width: 100%;
+    min-height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.bienvenidaNombreCont{
+    width: 100%;
+    height: 10rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 1rem;
+    background: var(--white-color);
+}
+
+.bienvenidaCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.bienvenida{
+    font-size: 2.3rem;
+    margin: 0 .5rem 0 0;
+    font-weight: 300;
+}
+
+.nombreImp{
+    font-size: 2.3rem;
+
+}
+
+.simbolo{
+    font-size: 2.3rem;
+    margin: 0 0 0 .5rem;
+    font-weight: 300;
+}
+
+.subTitulo{
+    width: 100%;
+    margin: .2rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: start;
+    color: var(--gris-color);
+}
+
+/*OBJETIVOS*/
+
+.objetivoContainerCard{
+    width: 100%;
+    background: var(--white-color);
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0 0 0;
+}
+
+.tit{
+    margin: 1.5rem 0;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+.objetivosContainer{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.ventaVolumenCont{
+    width: 100%;
+    height: 50%;
+    gap: 1rem;
+    display: flex;
+}
+
+/*VENTAS*/
+
+.volumenContainer{
+    width: 60%;
+    height: 100%;
+    background-image: url('../img/fondoTotal.png');
+    background-position: left;
+    background-size: cover;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.titVender{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--principal-color);
+    margin: 0 0 .5rem 0;
+}
+
+.tVender{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--principal-color);
+}
+
+/*VOLUMEN*/
+
+.totalCont{
+    width: 40%;
+    height: 100%;
+    background: var(--black-color);
+    overflow: hidden;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titCarrera{
+    color: var(--principal-color);
+    font-size: .8rem;
+    padding: 0 2rem 0 0;
+
+}
+
+.sVolumen{
+    font-size: 2.2rem;
+    color: var(--principal-color);
+    font-weight: 600;
+}
+
+/*TOTAL*/
+
+.ventaContainer {
+    width: 100%;
+    height: 50%;
+    padding: 1rem 0 0 0;
+}
+
+.totalContainer{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0 0 0;
+    background: var(--black-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+
+}
+
+.titTotal{
+    width: 100%;
+    font-size: .8rem;
+    font-weight: 400;
+    padding: .5rem;
+    background: var(--dark-color);
+    border-radius: 1rem;
+    color: var(--principal-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tVentasMes{
+    min-width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: var(--dark-color);
+    padding: 1rem .5rem;
+    color: var(--principal-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: .5rem 0 0 0;
+}
+
+/*PLAN DE ACCION*/
+
+.planContainerCard{
+    width: 100%;
+    background: var(--white-color);
+    border-radius: 1rem;
+    margin: 1rem 0 0 0;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.planDeAccionContainer{
+    width: 100%;
+    height: 22rem;
+
+}
+
+.planDeAccionCard{
+    width: 100%;
+    height: 100%;
+    background: var(--plan-color);
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+/*FECHA*/
+.fechaCont{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendarioCont{
+    background: var(--black-color);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.planCont{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fechaCont{
+    width: 100%;
+}
+
+.fechaHoy{
+    width: 8rem;
+    height: 3rem;
+    font-size: .8rem;
+    background: var(--black-color);
+    color: var(--principal-color);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datosCont{
+    width: 100%;
+    height: 4rem;
+    background: var(--dark-color);
+    padding: 0 0 0 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btnContainer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.titDatPlan{
+    color: var(--principal-color);
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+.dProspectar{
+    width: 6rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--black-color);
+    color: var(--plan-color);
+    border-radius: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.mesCont{
+    margin: 1rem 0;
+}
+
+.mMes{
+    width: 6rem;;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--black-color);
+    color: var(--plan-color);
+    border-radius: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.mSemanas{
+    width: 6rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--black-color);
+    border-radius: 1rem;
+    font-weight: 700;
+    color: var(--plan-color);
+    font-size: 1.1rem;
+}
+
+.btnVolver{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 2rem;
+    background: var(--white-color);
+    color: var(--principal-color);
+    cursor: pointer;
+    border: 3px solid var(--plan-color);
+}
+
+.arrow{
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+@media (max-height: 800px) {
+    .titDatPlan{
+        font-size: .6rem;
+        font-weight: bold;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background: var(--black-color);
+        color: var(--principal-color);
+    }
+
+    /* F O R M U L A R I O*/
+
+    .inputCont{
+        background: var(--dark-color);
+    }
+
+    .comisionCont{
+        background: var(--dark-color);
+    }
+
+    .inputTextAs{
+        background: var(--white-color);
+    }
+
+    .containerPro{
+        background: var(--white-color);
+    }
+
+    .signoCont{
+        background: var(--white-color);
+    }
+
+    .inputText{
+        background: var(--white-color);
+    }
+
+    .selectComision{
+        background: var(--white-color);
+    }
+    
+    .inputTextOb{
+        background: var(--white-color);
+    }
+    
+    .calcular{
+        background: var(--white-color);
+        color: var(--dark-color);
+    }
+
+    /*R E S U L T A D O S*/
+   
+    .bienvenidaNombreCont{
+        background: var(--principal-color);
+    }
+
+    .objetivoContainerCard{
+        background: var(--oscuro-color);
+    }
+
+    .planContainerCard{
+        background: var(--oscuro-color);
+    }
+
+    .tit{
+        color: var(--principal-color);
+    }
+
+    .bienvenida{
+        color: var(--black-color);
+    }
+
+    .nombreImp{
+        color: var(--black-color);
+    }
+
+    .subTitulo{
+        color: var(--gris-color);
+    }
+
+    .titDatPlan{
+        color: var(--black-color);
+    }
+
+
+    .fechaHoy{
+        background: var(--black-color);
+    }
+
+    .datosCont{
+        background: var(--black-color);
+    }
+
+    .titDatPlan{
+        color: var(--principal-color);
+    }
+
+    .dProspectar{
+        background: var(--oscuro-color);
+    }
+
+    .mMes{
+        background: var(--oscuro-color);
+    }
+
+    .mSemanas{
+        background: var(--oscuro-color);
+    }
+
+    .btnVolver{
+        background: var(--white-color);
+        color: var(--black-color);
+    }
+
+    .arrow{
+        width: 2.5rem;
+        border-radius: 100%;
+    }
+ 
+}
+
